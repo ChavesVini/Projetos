@@ -1,3 +1,5 @@
+#Código simples para avaliação com 5 atibutos (pt-br)
+
 lista_competencias = ['Pró-ativo', 'resiliência', 'gostaDesafios', 'comunicativo', 'trabalhoEquipe']
 lista_notas = []
 lista_notas_numero = []
