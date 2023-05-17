@@ -115,19 +115,19 @@ def count_code(s):
 # end_other('AbC', 'HiaBc') -> True
 # end_other('abc', 'abXabc') -> True
 def end_other(a, b):
-  a = a.lower()
-  b = b.lower()
-  if a[-1] == b[-1]:
-    equal = 1
-    n = -2
-    while equal == 1:
-      if a[:n] == b[:n]:
-        n -= 1
-      else:
-        equal == 2
-        return True
-  else:
-    return False 
+#   a = a.lower()
+#   b = b.lower()
+#   if a[-1] == b[-1]:
+#     equal = 1
+#     n = -2
+#     while equal == 1:
+#       if a[:n] == b[:n]:
+#         n -= 1
+#       else:
+#         equal == 2
+#         return True
+#   else:
+     return #False 
 
 # I. count_evens
 # conta os números pares da lista
@@ -149,12 +149,13 @@ def count_evens(nums):
 # sum13([1, 2, 2, 1, 13]) -> 6
 # sum13([13, 1, 2, 3, 4]) -> 0
 def sum13(nums):
-  for num in nums:
-    if num == 13:
-      sum(num)
-      break
-    else:
-      sum(num)
+#   for num in nums:
+#     if num == 13:
+#       sum(num)
+#       break
+#     else:
+#       sum(num)
+  return
 
 # K. has22
 # Verifica se na lista de números inteiros aparecem dois 2 consecutivos
@@ -162,7 +163,11 @@ def sum13(nums):
 # has22([1, 2, 1, 2]) -> False
 # has22([2, 1, 2]) -> False
 def has22(nums):
- return
+    for lista in range(len((nums))):
+      if nums[lista]+1 == 2 and nums[lista+1] == 2:
+        return True
+      else:
+        return False
 
 # L. desafio! faça somente se já tiver acabado o EP1 e todas as listas
 # Fila de tijolos sem usar loops
