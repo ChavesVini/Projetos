@@ -1,7 +1,7 @@
 public enum Cartas {
-    Copas,
-    Paus, 
-    Ouros, 
-    Espadas,
-    Coringa
+    COPAS,
+    PAUS, 
+    OUROS, 
+    ESPADAS,
+    CORINGA
 }

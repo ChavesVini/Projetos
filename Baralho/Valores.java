@@ -1,16 +1,16 @@
 public enum Valores {
-    As, 
-    Dois, 
-    Tres, 
-    Quatro, 
-    Cinco, 
-    Seis, 
-    Sete, 
-    Oito, 
-    Nove, 
-    Dez, 
+    AS, 
+    DOIS, 
+    TRES, 
+    QUATRO, 
+    CINCO, 
+    SEIS, 
+    SETE, 
+    OITO, 
+    NOVE, 
+    DEZ, 
     J, 
     Q, 
     K,
-    Coringa
+    CORINGA
 }
